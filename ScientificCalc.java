@@ -603,7 +603,7 @@ class CalcFrame2 extends JFrame implements ActionListener {
 }
 
 
-public class ScientificCalc2 {
+public class ScientificCalc {
 
 	public static void main(String[] args) {
 		CalcFrame2 f = new CalcFrame2("Scientific Calculator");

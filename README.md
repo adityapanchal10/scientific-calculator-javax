@@ -9,7 +9,14 @@ For the implementation part, it is done using the evaluation of postfix (reverse
 The expression entered on the display (input) is converted into postfix using the 'Shunting Yard Algorithm' and then its evaluation is done.
 The evaluation function, written by me, will take a proper postfix expression and produce the resulting value.
 
-Please note that input should be provided in proper parenthesis for correct results
+Please note that input should be provided in proper parenthesis for correct results.
 Eg. sin2 + 5 should be written as sin(2) + 5 and so on
 
 Also besides digits, some constants like PI and e are also implemented alongwith a checkbox to switch between degrees and radians.
+
+To run the program, compile it first (a recent release of the JDK is recommended) using
+`javac ScientificCalc.java`
+
+Then run it using `java ScientificCalc` and the output should be like the following
+
+![plot](./plot.jpg)

@@ -3,7 +3,7 @@
 A working model of a scientific calculator written in java.
 The interface is implemented using the Swing Framework.
 
-In terms of functionality, there are trigonometric functions (sine, cosine and tangent), exponential and logarithmic functions (E, log10, ln), square root and cube roots, factorial and the basic arithmetic functions.
+In terms of functionality, there are trigonometric functions (sine, cosine and tangent), exponential and logarithmic functions (EXP, log10, ln), square root and cube roots, factorial and the basic arithmetic functions.
 
 For the implementation part, it is done using the evaluation of postfix (reverse polish) expression.
 The expression entered on the display (input) is converted into postfix using the 'Shunting Yard Algorithm' and then its evaluation is done.
@@ -18,5 +18,6 @@ To run the program, compile it first (a recent release of the JDK is recommended
 `javac ScientificCalc.java`
 
 Then run it using `java ScientificCalc` and the output should be like the following
+
 
 ![plot](./plot.jpg)
